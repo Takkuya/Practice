@@ -11,8 +11,15 @@ a {
   color: #fff;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 span {
   opacity: 80%;
+  font-size: 18px;
 }
 
 button {
@@ -57,7 +64,6 @@ button {
 
 .hero-page {
   display: flex;
-  justify-content: center;
   padding: 1.5em 15em;
 }
 
@@ -136,4 +142,76 @@ button {
 #second-section p {
   font-size: 18px;
   color: #1f2937;
+}
+
+#third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+
+  background: #e5e7eb;
+}
+
+#third-section div {
+  padding: 110px 0;
+  width: 60%;
+}
+
+#third-section div p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+
+  text-align: justify;
+}
+
+#third-section div span {
+  display: flex;
+  justify-content: flex-end;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+#fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  color: #fff;
+
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+#fourth-section div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 40px;
+}
+
+#fourth-section p {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#fourth-section div button {
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+
+  padding: 5px 20px;
+}
+
+#footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #fff;
+  padding: 50px 0;
 }
